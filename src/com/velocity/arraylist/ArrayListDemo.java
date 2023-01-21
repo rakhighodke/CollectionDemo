@@ -12,8 +12,7 @@ public class ArrayListDemo {
 		list.add("pune");
 		list.add("ratnagiri");
 		//System.out.println(list);
-	for(String i:list) {
-		System.out.println(i);
+	list.iterator();
 	}
 	}
-}
+

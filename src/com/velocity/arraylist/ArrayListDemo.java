@@ -1,6 +1,7 @@
 package com.velocity.arraylist;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListDemo {
@@ -12,7 +13,10 @@ public class ArrayListDemo {
 		list.add("pune");
 		list.add("ratnagiri");
 		//System.out.println(list);
-	list.iterator();
+	 Iterator<String> itr=list.iterator();
+	 while(itr.hasNext()) {
+		 System.out.println(itr.next());
+	 }
 	}
 	}
 

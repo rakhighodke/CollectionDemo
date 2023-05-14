@@ -7,6 +7,9 @@ public class LinkedListDemo {
 		LinkedList<String> list=new LinkedList<String>();
 		list.add("pooja");
 		list.add("rekha");
+		list.add("rani");
+		list.add("hina");
+
 		System.out.println(list);
 	}
 
